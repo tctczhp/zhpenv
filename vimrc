@@ -117,6 +117,5 @@ Plug 'Chiel92/vim-autoformat'
 Plug 'othree/html5.vim'
 call plug#end()
 
-au BufWrite * :Autoformat
 let g:coc_disable_startup_warning = 1
 let b:coc_diagnostic_disable = 1
